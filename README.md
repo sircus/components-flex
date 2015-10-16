@@ -35,17 +35,17 @@ input.scss
 > Markup
 
 ```html
-<div class="Flex t-gutter">
-  <div class="Flex-col t-width1of4">
+<div class="Flex">
+  <div class="Flex-col t-width1of4 t-gutter">
     1
   </div>
-  <div class="Flex-col t-width1of4">
+  <div class="Flex-col t-width1of4 t-gutter">
     2
   </div>
-  <div class="Flex-col t-width1of4">
+  <div class="Flex-col t-width1of4 t-gutter">
     3
   </div>
-  <div class="Flex-col t-width1of4">
+  <div class="Flex-col t-width1of4 t-gutter">
     4
   </div>
 </div>
