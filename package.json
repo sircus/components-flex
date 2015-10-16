@@ -1,0 +1,27 @@
+{
+  "name": "sircus-components-flex",
+  "description": "Flex component module for Sircus.",
+  "version": "0.0.0",
+  "homepage": "http://sircus.github.io",
+  "keywords": [
+    "scalable",
+    "design",
+    "css",
+    "rwd"
+  ],
+  "author": {
+    "name": "blivesta",
+    "url": "http://blivesta.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sircus/components-flex.git"
+  },
+  "scripts": {
+    "build": "css2scss ./index.css ./_converted.scss"
+  },
+  "devDependencies": {
+    "sircus-process-css2scss": "^0.2.0"
+  }
+}

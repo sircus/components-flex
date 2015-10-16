@@ -1,0 +1,27 @@
+/*　sircus-components-flex
+======================================== */
+.Flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Flex--nowrap       { flex-wrap: nowrap; }
+
+.Flex--center       { justify-content: center; }
+.Flex--right        { justify-content: flex-end; }
+.Flex--left         { justify-content: flex-start; }
+.Flex--justify      { justify-content: space-between; }
+
+.Flex--top          { align-items: flex-start; }
+.Flex--middle       { align-items: center; }
+.Flex--bottom       { align-items: flex-end; }
+.Flex--baseline     { align-items: baseline; }
+
+
+.Flex-col {
+  box-sizing: border-box;
+}
+
+.Flex-col--fit   { flex: 1; }
+.Flex-col--first { order: -1 }
+.Flex-col--last  { order: 9999 }
