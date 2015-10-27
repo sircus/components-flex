@@ -1,7 +1,7 @@
 {
   "name": "sircus-components-flex",
-  "description": "Flex component module for Sircus.",
-  "version": "0.0.0",
+  "description": "Module For CSS Flexbox Layout.",
+  "version": "0.1.0",
   "homepage": "http://sircus.github.io",
   "keywords": [
     "scalable",
