@@ -1,3 +1,7 @@
+:root {
+  --Flex-gutter: var(--g-gutter);
+}
+
 /*　sircus-components-flex
 ======================================== */
 .Flex {
