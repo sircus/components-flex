@@ -8,7 +8,7 @@
 > npm:
 
 ```bash
-$ npm install sircus-components-flex sircus-tools-width sircus-tools-gutter
+$ npm install sircus-components-flex sircus-tools-display sircus-tools-width
 ```
 
 ## Usage
@@ -18,8 +18,8 @@ $ npm install sircus-components-flex sircus-tools-width sircus-tools-gutter
 input.css
 ```css
 @import "sircus-components-flex";
+@import "sircus-tools-display";
 @import "sircus-tools-width";
-@import "sircus-tools-gutter";
 ```
 
 > sass:
@@ -27,25 +27,25 @@ input.css
 input.scss
 ```scss
 @import "./node_modules/sircus-components-flex/converted";
+@import "./node_modules/sircus-tools-display/converted";
 @import "./node_modules/sircus-tools-width/converted";
-@import "./node_modules/sircus-tools-gutter/converted";
 ```
 
 
 > Markup
 
 ```html
-<div class="Flex">
-  <div class="Flex-col t-width1of4 t-gutter">
+<div class="Flex t-flex">
+  <div class="Flex-col t-widthHalf">
     1
   </div>
-  <div class="Flex-col t-width1of4 t-gutter">
+  <div class="Flex-col t-widthHalf">
     2
   </div>
-  <div class="Flex-col t-width1of4 t-gutter">
+  <div class="Flex-col t-widthHalf">
     3
   </div>
-  <div class="Flex-col t-width1of4 t-gutter">
+  <div class="Flex-col t-widthHalf">
     4
   </div>
 </div>
