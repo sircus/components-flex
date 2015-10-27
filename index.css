@@ -23,6 +23,8 @@
 
 .Flex-col {
   box-sizing: border-box;
+  padding-right: var(--Flex-gutter);
+  padding-left: var(--Flex-gutter);
 }
 
 .Flex-col--fit   { flex: 1; }

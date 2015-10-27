@@ -22,6 +22,8 @@ $Flex-gutter: $g-gutter !default;
 
 .Flex-col {
   box-sizing: border-box;
+  padding-right: $Flex-gutter;
+  padding-left: $Flex-gutter;
 }
 
 .Flex-col--fit   { flex: 1; }
