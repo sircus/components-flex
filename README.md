@@ -51,6 +51,13 @@ input.scss
 </div>
 ```
 
+
+> Responsive
+
+```html
+<div class="Flex t-sm-flex"></div>
+```
+
 > Modifier
 
 ```css
